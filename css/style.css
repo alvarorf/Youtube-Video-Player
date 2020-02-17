@@ -52,7 +52,7 @@ height:400px;
 	font-size:15px;
 	margin-top:15px;
 }
-.upload-info {
+.upload-info .comment{
 	display: grid;
 	grid-template-columns: 1fr 10fr;
 }
@@ -81,6 +81,9 @@ height:400px;
 main {
 	padding-left: 25px;
 	padding-right: 25px;
+}
+.videodesc{
+	text-align:justify;
 }
 .autoplay{
 	display:grid;
@@ -132,4 +135,18 @@ main {
 .searchbar img {
 	height : 20px;
 }
+.searchbar input{
 
+font-size:16px;
+}
+.commentage{
+	color: gray;
+	font-size:0.9rem;
+}
+.channel-logo{
+	margin-top:24%;
+	height:4rem;
+}
+.channel-info span{
+	color:gray;
+}
