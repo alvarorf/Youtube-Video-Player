@@ -81,5 +81,14 @@ height:400px;
 	padding-left: 35px;
 	padding-right: 35px;
 }
+.autoplay{
+	display:grid;
+	grid-template-columns:1fr 1fr;
+}
+.autoplayenabled{
+	color:gray;
+	text-align:right;
+	
+}
 
 
