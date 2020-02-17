@@ -1,0 +1,30 @@
+nav {
+	display: grid;
+	grid-template-columns: 1fr 3fr 1fr;
+
+}
+
+.logo {
+	color: white;
+}
+
+nav input {
+	width: 80%;
+	padding-left: 3%;
+	margin-top: 3%;
+}
+nav .logo img {
+	width: 100px;
+	padding-left: 15%;
+}
+nav .user_control {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	padding-top: 5%;
+}
+nav .icon-fix {
+	margin-top: 8px;
+}
+nav .icon-fix2 {
+	margin-top: 4px;
+}
