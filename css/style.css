@@ -14,7 +14,8 @@ nav {
 nav input {
 	width: 80%;
 	padding-left: 3%;
-	margin-top: 3%;
+	padding-top: 0px;
+	height: 20px;
 }
 nav .logo img {
 	width: 100px;
@@ -77,9 +78,9 @@ height:400px;
 .channel-info {
 	padding-top: 20px;
 }
-.maindiv {
-	padding-left: 35px;
-	padding-right: 35px;
+main {
+	padding-left: 25px;
+	padding-right: 25px;
 }
 .autoplay{
 	display:grid;
@@ -89,6 +90,46 @@ height:400px;
 	color:gray;
 	text-align:right;
 	
+	
 }
+.autoplay h4{
+	font-size:15px;
+	font-weight: 100;
 
+
+}
+.autoplay h3{
+	font-size:20px;
+	font-weight: 100;
+
+
+}
+.relvideo{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+} 
+.relsection {
+	padding-left: 20px;	
+}
+.relvideo h5 {
+	margin-top: 3px; margin-bottom: 3px;
+}
+.title-style {
+	color: gray;
+	font-weight: 100;
+}
+.searchbar {
+	display: grid;
+	grid-template-columns: 10fr 1fr;
+	margin-top: 2%;
+}
+.searchbar input {
+	width: 100%;
+}
+.searchbar button {
+	background-color: #f9f9f9;
+}
+.searchbar img {
+	height : 20px;
+}
 
