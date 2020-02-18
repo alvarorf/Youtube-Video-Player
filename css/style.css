@@ -97,9 +97,7 @@ main {
 	display:grid;
 	grid-template-columns:1fr 1fr;
 }
-.autoplaynext{
-	padding-top: 20px;
-}
+
 .autoplayenabled{
 	color:gray;
 	text-align:right;
@@ -142,14 +140,17 @@ main {
 .searchbar input {
 	width: 100%;
 	font-size:16px;
+	height: 20px;
 }
 .searchbar button {
 	background-color: #f9f9f9;
 	vertical-align:center;
+	height: 27px;
+	margin-left: 21px;
 
 }
 .searchbar img {
-	height : 20px;
+	height : 23px;
 	
 }
 
@@ -216,11 +217,13 @@ margin-top:25px;
 	grid-area: section;
 	display:inline-block;
 	margin-left:55px;
+	width:58%;
 
 }
 .aside {
 	grid-area: aside;
 	float:right;
+	width:33%;
 }
 .article {
 	grid-area: article;
