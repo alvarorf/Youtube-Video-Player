@@ -238,3 +238,6 @@ margin-top:25px;
 	grid-template-columns: 1fr 1fr;
 	
 }
+iframe{
+	border:0px;
+}
