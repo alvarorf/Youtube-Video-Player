@@ -206,3 +206,20 @@ margin-top:25px;
 	grid-template-columns: 1fr 1fr 1fr 15fr;
 	font-family:"Lato";
 }
+
+.section {
+	grid-area: section;
+}
+.aside {
+	grid-area: aside;
+}
+.article {
+	grid-area: article;
+}
+.main-cont {
+	display: grid;
+	grid-area: "section aside"
+			   "article aside";
+	grid-template-columns: 1fr 1fr 1fr;
+	
+}
