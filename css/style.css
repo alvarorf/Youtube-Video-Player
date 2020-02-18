@@ -1,5 +1,6 @@
 html{
 	background-color:#f9f9f9;
+	font-family:"Lato";
 }
 nav {
 	display: grid;
@@ -57,8 +58,11 @@ height:400px;
 .upload-info{
 	display:grid;
 	grid-template-columns:1fr 10fr;
-	border-top:1px solid #cfcdcd;
+	
 
+}
+.topline{
+	border-top:1px solid #cfcdcd;
 }
 .channel-info {
 	display: grid;
@@ -105,6 +109,7 @@ main {
 .autoplay h4{
 	font-size:15px;
 	font-weight: 100;
+	font-family:"Lato";
 
 
 }
@@ -147,10 +152,7 @@ main {
 	height : 20px;
 	
 }
-.search_input{
-	/*width: 180%;*/
 
-}
 
 .commentage{
 	color: gray;                
@@ -170,18 +172,27 @@ main {
 .pt3 {
 	padding-top: 3px;
 
+
 }
 .pt5 {
 	padding-top: 5px;
+
 }
 .pt7 {
 	padding-top: 7px;
+
 } 
 .pt8 {
 	padding-top: 8px;
+
 } 
+.pt10{
+	padding-top: 10px;
+
+}
 .pl20 {
 	padding-left: 20px;
+
 } 
 .mar25{
 margin-top:25px;
@@ -189,4 +200,9 @@ margin-top:25px;
 .col-1-10 {
 	display: grid;
 	grid-template-columns: 1fr 10fr;
+}
+.commentbuttons{
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr 15fr;
+	font-family:"Lato";
 }
