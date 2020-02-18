@@ -3,7 +3,7 @@ html{
 }
 nav {
 	display: grid;
-	grid-template-columns: 1fr 3fr 1fr;
+	grid-template-columns: 3fr 7fr 3fr;
 
 
 }
@@ -129,28 +129,33 @@ main {
 	font-weight: 100;
 }
 .searchbar {
-	
+	display: grid;
+	grid-template-columns: 50fr 3fr;
 	margin-top: 2%;
 	width:550px;
 }
 .searchbar input {
 	width: 100%;
+	font-size:16px;
 }
 .searchbar button {
 	background-color: #f9f9f9;
 	vertical-align:center;
+
 }
 .searchbar img {
 	height : 20px;
 	
 }
-.searchbar input{
+.search_input{
+	/*width: 180%;*/
 
-font-size:16px;
 }
+
 .commentage{
 	color: gray;                
-	
+	font-size: 17px;
+	font-weight: 300;
 	height:4rem;
 }
 .channel-info span{
@@ -175,6 +180,13 @@ font-size:16px;
 .pt8 {
 	padding-top: 8px;
 } 
+.pl20 {
+	padding-left: 20px;
+} 
 .mar25{
 margin-top:25px;
+}
+.col-1-10 {
+	display: grid;
+	grid-template-columns: 1fr 10fr;
 }
