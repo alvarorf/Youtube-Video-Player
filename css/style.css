@@ -194,6 +194,10 @@ main {
 	padding-left: 20px;
 
 } 
+.pl30 {
+	padding-left: 30px;
+
+} 
 .mar25{
 margin-top:25px;
 }
@@ -201,6 +205,7 @@ margin-top:25px;
 	display: grid;
 	grid-template-columns: 1fr 10fr;
 }
+
 .commentbuttons{
 	display:grid;
 	grid-template-columns: 1fr 1fr 1fr 15fr;
@@ -209,17 +214,24 @@ margin-top:25px;
 
 .section {
 	grid-area: section;
+	display:inline-block;
+	margin-left:55px;
+
 }
 .aside {
 	grid-area: aside;
+	float:right;
 }
 .article {
 	grid-area: article;
+	margin-left:55px;
+	
 }
 .main-cont {
 	display: grid;
+	border:20px yellow solid;
 	grid-area: "section aside"
 			   "article aside";
-	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-columns: 1fr 1fr;
 	
 }
