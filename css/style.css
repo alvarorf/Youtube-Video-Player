@@ -7,8 +7,9 @@ html{
 /*dark mode*/
 body .dark {
 	background-color:#000000;
-	font-family:"Lato";
 	color:white;
+	font-family:"Lato";
+	
 }
 .dark {
 	background-color: #000000;
@@ -30,22 +31,23 @@ body .dark {
 }
 .dark .upload-info div img {
 
-    height: 40px;
-    padding-top: 7px;
+    height: 47px;
+    
 
 }
 .dark .upload-info .pt7 {
 	
-    padding-top: 0px;
+    padding-top: 0;
 
 }
 .dark section {
 	padding-top: 15px;
 }
 .dark .menuicon2 {
-	height:80%;
+	height:82%;
+	margin-top:auto;
 	width: 45px ;
-	padding-top: 8px;
+	
 }
 .dark .user_control {
 	padding-top: 5px;
@@ -110,14 +112,14 @@ header {
 }
 
 header input {
-	width: 80%;
-	padding-left: 3%;
-	padding-top: 0px;
 	height: 20px;
+	padding-left: 3%;
+	padding-top: 0;
+	width: 80%;
 }
 header .logo img {
-	width: 100px;
 	padding-left: 15%;
+	width: 100px;
 }
 header .user_control {
 	display: grid;
@@ -238,7 +240,6 @@ main {
 .searchbar {
 	display: grid;
 	grid-template-columns: 50fr 3fr;
-	margin-top: 10px;
 	width:550px;
 	margin-left: auto;
 	margin-right:auto;
@@ -354,20 +355,20 @@ margin-top:25px;
 
 .commentbuttons{
 	display:grid;
-	grid-template-columns: 1fr 1fr 1fr 15fr;
 	font-family:"Lato";
+	grid-template-columns: 1fr 1fr 1fr 15fr;
 }
 
 .section {
-	grid-area: section;
 	display:inline-block;
+	grid-area: section;
 	margin-left:55px;
 	width:58%;
 
 }
 .aside {
-	grid-area: aside;
 	float:right;
+	grid-area: aside;
 	width:33%;
 }
 .article {
@@ -376,21 +377,22 @@ margin-top:25px;
 	
 }
 .main-cont {
-	display: grid; 
 	border:20px yellow solid;
+	display: grid; 
 	grid-area: "section aside"
 			   "article aside";
 	grid-template-columns: 1fr 1fr;
 	
 }
 iframe{
-	border:0px;
+	border:0;
 	width: 100%;
 }
 section {
-	width: 93%;
-	padding-top: 15px;
 	padding-left: 35px;
+	padding-top: 15px;
+	width: 93%;
+
 }
 article {
 	width: 95%;
@@ -417,8 +419,8 @@ section iframe {
 
 }
 .menuicon2{
-	width: 35px;
 	padding-top:10px;
+	width: 35px;	
 }
 .autoplay h3 {
 	margin-top: 10px;
