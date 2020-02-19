@@ -2,12 +2,57 @@ html{
 	background-color:#f9f9f9;
 	font-family:"Lato";
 }
+
+
+/*dark mode*/
+body .dark {
+	background-color:#000000;
+	font-family:"Lato";
+	color:white!important;
+}
+.dark {
+	background-color: #000000;
+	color:white!important;
+}
+.dark .searchbar button {
+	background-color: #000000;
+}
+.dark header {
+	padding-bottom: 20px;
+	padding-top: 10px;
+}
+.dark-logo img {
+	height: 110%;
+	
+}
+.dark header .icon-fix2 {
+	margin-top: 7px;
+}
+.dark .upload-info div img {
+
+    height: 40px;
+    padding-top: 7px;
+
+}
+.dark .upload-info .pt7 {
+	
+    padding-top: 0px;
+
+}
+.dark section {
+	padding-top: 65px;
+}
+
+
+/*dark mode*/
+
 nav {
 	display: grid;
 	grid-template-columns: 3fr 7fr 3fr;
 
 
 }
+
 
 .logo {
 	color: white;
@@ -34,6 +79,45 @@ nav .icon-fix {
 nav .icon-fix2 {
 	margin-top: 4px;
 }
+
+/*navbar end*/
+
+
+header {
+	display: grid;
+	grid-template-columns: 3fr 7fr 3fr;
+
+
+}
+
+.logo {
+	color: white;
+}
+
+header input {
+	width: 80%;
+	padding-left: 3%;
+	padding-top: 0px;
+	height: 20px;
+}
+header .logo img {
+	width: 100px;
+	padding-left: 15%;
+}
+header .user_control {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	padding-top: 5%;
+}
+header .icon-fix {
+	margin-top: 8px;
+}
+header .icon-fix2 {
+	margin-top: 4px;
+}
+
+
+
 .maindiv{
 display:grid;
 grid-template-columns:2fr 1fr;
@@ -58,6 +142,7 @@ height:400px;
 .upload-info{
 	display:grid;
 	grid-template-columns:1fr 10fr;
+	padding-right: 20px;
 	
 
 }
@@ -134,19 +219,20 @@ main {
 .searchbar {
 	display: grid;
 	grid-template-columns: 50fr 3fr;
-	margin-top: 2%;
+	margin-top: 10px;
 	width:550px;
 }
 .searchbar input {
 	width: 100%;
 	font-size:16px;
-	height: 20px;
+	height: 80%;
 }
 .searchbar button {
 	background-color: #f9f9f9;
 	vertical-align:center;
-	height: 27px;
-	margin-left: 21px;
+	height: 80%;
+	
+	width: 80px;
 
 }
 .searchbar img {
@@ -191,6 +277,10 @@ main {
 	padding-top: 10px;
 
 }
+.pt15{
+	padding-top: 15px;
+
+}
 .pl20 {
 	padding-left: 20px;
 
@@ -205,6 +295,10 @@ margin-top:25px;
 .col-1-10 {
 	display: grid;
 	grid-template-columns: 1fr 10fr;
+}
+.col-8-4 {
+	display: grid;
+	grid-template-columns: 8fr 4fr;
 }
 
 .commentbuttons{
@@ -231,7 +325,7 @@ margin-top:25px;
 	
 }
 .main-cont {
-	display: grid;
+	display: grid; 
 	border:20px yellow solid;
 	grid-area: "section aside"
 			   "article aside";
@@ -240,4 +334,29 @@ margin-top:25px;
 }
 iframe{
 	border:0px;
+	width: 100%;
+}
+section {
+	width: 93%;
+	padding-top: 65px;
+	padding-left: 35px;
+}
+article {
+	width: 95%;
+}
+aside {
+	padding-right: 35px;
+}
+.upload-info .pl20 img {
+	
+	height:50px;
+}
+.upload-info div img {
+	height: 50px;
+}
+article .pt7 img {
+    height: 40px;
+}
+section iframe {
+	padding-top: 50px;
 }
