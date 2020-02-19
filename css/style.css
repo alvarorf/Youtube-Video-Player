@@ -75,13 +75,13 @@ nav input {
 }
 nav .logo img {
 	width: 100px;
-	padding-left: 15%;
+	
 }
 nav .menuicon {
-	height: 80%;
+	height: 25px;
 	
 	
-	padding-top: 5px;
+	padding-top: 7px;
 	
 }
 
@@ -414,7 +414,7 @@ article .pt7 img {
 	padding-left: 0px;
 }
 
-}
+
 .menuicon2{
 	padding-top:10px;
 	width: 35px;	
@@ -426,7 +426,7 @@ article .pt7 img {
 	margin-top: 10px;
 }
 nav .navmenu img {
-	width: 45px;
+	width: 34px;
 }
 .likebtn {
 	background: url('img/like.png');
