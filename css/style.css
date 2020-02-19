@@ -1,15 +1,12 @@
-html{
+html {
 	background-color:#f9f9f9;
 	font-family:"Lato";
 }
-
-
 /*dark mode*/
 body .dark {
 	background-color:#000000;
 	color:white;
 	font-family:"Lato";
-	
 }
 .dark {
 	background-color: #000000;
@@ -19,26 +16,19 @@ body .dark {
 	background-color: #000000;
 }
 .dark header {
-	
 	padding-top: 13px;
 }
 .dark-logo img {
 	height: 110%;
-	
 }
 .dark header .icon-fix2 {
 	margin-top: 7px;
 }
 .dark .upload-info div img {
-
-    height: 47px;
-    
-
+	height: 47px;
 }
 .dark .upload-info .pt7 {
-	
-    padding-top: 0;
-
+	padding-top: 0;
 }
 .dark section {
 	padding-top: 15px;
@@ -47,7 +37,6 @@ body .dark {
 	height:82%;
 	margin-top:auto;
 	width: 45px ;
-	
 }
 .dark .user_control {
 	padding-top: 5px;
@@ -75,14 +64,10 @@ nav input {
 }
 nav .logo img {
 	width: 100px;
-	
 }
 nav .menuicon {
 	height: 25px;
-	
-	
 	padding-top: 7px;
-	
 }
 
 nav .user_control {
@@ -144,11 +129,8 @@ height:400px;
 	display:grid;
 	grid-template-columns:1fr 1fr;
 	margin-top: -20px;
-	
-	
 }
 .videoplay{
-	
 	height:400px;
 }
 .videoinfo h5{
@@ -160,7 +142,6 @@ height:400px;
 	display:grid;
 	grid-template-columns:1fr 10fr;
 	padding-right: 20px;
-	
 
 }
 .topline{
@@ -203,8 +184,6 @@ main {
 .autoplayenabled{
 	color:gray;
 	text-align:right;
-	
-	
 }
 .autoplay h4{
 	font-size:15px;
@@ -225,10 +204,9 @@ main {
 } 
 .relvideodiv{
 	height:40%;
-	
 }
 .relsection {
-	padding-left: 20px;	
+	padding-left: 20px;
 }
 .relvideo h5 {
 	margin-top: 3px; margin-bottom: 3px;
@@ -255,13 +233,11 @@ main {
 	background-color: #f9f9f9;
 	vertical-align:center;
 	height: 100%;
-	
 	width: 80px;
 
 }
 .searchbar img {
 	height : 23px;
-	
 }
 
 
@@ -328,7 +304,6 @@ margin-top:25px;
 }
 .commentbuttons .pt10 a{
 	color:gray;
-	
 }
 .he25{
 	height:25px;
@@ -374,7 +349,6 @@ margin-top:25px;
 .article {
 	grid-area: article;
 	margin-left:55px;
-	
 }
 .main-cont {
 	border:20px yellow solid;
@@ -382,7 +356,6 @@ margin-top:25px;
 	grid-area: "section aside"
 			   "article aside";
 	grid-template-columns: 1fr 1fr;
-	
 }
 iframe{
 	border:0;
@@ -401,7 +374,6 @@ aside {
 	padding-right: 35px;
 }
 .upload-info .pl20 img {
-	
 	height:50px;
 }
 .upload-info div img {
@@ -417,7 +389,7 @@ article .pt7 img {
 
 .menuicon2{
 	padding-top:10px;
-	width: 35px;	
+	width: 35px;
 }
 .autoplay h3 {
 	margin-top: 10px;
@@ -430,5 +402,4 @@ nav .navmenu img {
 }
 .likebtn {
 	background: url('img/like.png');
-	
 }
