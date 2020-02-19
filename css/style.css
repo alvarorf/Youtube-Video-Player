@@ -206,6 +206,10 @@ main {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 } 
+.relvideodiv{
+	height:40%!important;
+	
+}
 .relsection {
 	padding-left: 20px;	
 }
@@ -225,7 +229,7 @@ main {
 .searchbar input {
 	width: 100%;
 	font-size:16px;
-	height: 80%;
+	height: 50%;
 }
 .searchbar button {
 	background-color: #f9f9f9;
@@ -255,6 +259,7 @@ main {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
 	padding-top: 10px;
+	color:gray;
 }
 .pt3 {
 	padding-top: 3px;
@@ -289,8 +294,35 @@ main {
 	padding-left: 30px;
 
 } 
+article div div img{
+	margin-top:-5px; padding-left:42px;
+}
 .mar25{
 margin-top:25px;
+}
+.marl4{
+	margin-left:4px;
+}
+.marl2{
+	margin-left:2px;
+}
+.commentbuttons .pt10 a{
+	color:gray;
+	
+}
+.he25{
+	height:25px;
+}
+.usercomm2{
+	margin-top:-5px; 
+	padding-left:61px;
+}
+.userimage{
+	height:25px;
+}
+.upload-info div img{
+	margin-top:-5px; 
+	padding-left:61px;
 }
 .col-1-10 {
 	display: grid;
@@ -359,4 +391,12 @@ article .pt7 img {
 }
 section iframe {
 	padding-top: 50px;
+}
+.menuicon{
+	width: 35px; 
+	padding-top:15px;
+}
+.menuicon2{
+	width: 35px;
+	padding-top:10px;
 }
