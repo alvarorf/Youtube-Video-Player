@@ -8,11 +8,11 @@ html{
 body .dark {
 	background-color:#000000;
 	font-family:"Lato";
-	color:white!important;
+	color:white;
 }
 .dark {
 	background-color: #000000;
-	color:white!important;
+	color:white;
 }
 .dark .searchbar button {
 	background-color: #000000;
@@ -45,10 +45,13 @@ body .dark {
 .dark .menuicon2 {
 	height:80%;
 	width: 45px ;
-	padding-top: 5px;
+	padding-top: 8px;
 }
 .dark .user_control {
-	padding-top: 0px;
+	padding-top: 5px;
+}
+.dark header .logo img {
+	margin-top: -5px;
 }
 
 
@@ -57,11 +60,7 @@ body .dark {
 nav {
 	display: grid;
 	grid-template-columns: 3fr 7fr 3fr;
-
-
 }
-
-
 .logo {
 	color: white;
 }
@@ -78,11 +77,12 @@ nav .logo img {
 }
 nav .menuicon {
 	height: 80%;
-	width: 45px!important;
-	width: 35px; 
+	
+	
 	padding-top: 5px;
 	
 }
+
 nav .user_control {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -222,7 +222,7 @@ main {
 	grid-template-columns: 1fr 1fr;
 } 
 .relvideodiv{
-	height:40%!important;
+	height:40%;
 	
 }
 .relsection {
@@ -240,16 +240,20 @@ main {
 	grid-template-columns: 50fr 3fr;
 	margin-top: 10px;
 	width:550px;
+	margin-left: auto;
+	margin-right:auto;
+	margin-top: auto;
+	margin-bottom:auto;
 }
 .searchbar input {
 	width: 100%;
 	font-size:16px;
-	height: 70%;
+	height: 100%;
 }
 .searchbar button {
 	background-color: #f9f9f9;
 	vertical-align:center;
-	height: 70%;
+	height: 100%;
 	
 	width: 80px;
 
@@ -407,8 +411,8 @@ article .pt7 img {
 section iframe {
 	/*padding-top: 50px;*/
 }
-.comment_action {
-	padding-left: 0px!important;
+.commentbuttons .comment_icons img {
+	padding-left: 0px;
 }
 
 }
@@ -421,4 +425,11 @@ section iframe {
 }
 .autoplay h4 {
 	margin-top: 10px;
+}
+nav .navmenu img {
+	width: 45px;
+}
+.likebtn {
+	background: url('img/like.png');
+	
 }
