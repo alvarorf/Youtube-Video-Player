@@ -1,22 +1,22 @@
 html {
-	background-color:#f9f9f9;
+	background-color: #f9f9f9;
 	font-family:"Lato";
 }
 
 /*dark mode*/
 body .dark {
-	background-color:#000000;
+	background-color: #000;
 	color:white;
 	font-family:"Lato";
 }
 
 .dark {
-	background-color: #000000;
+	background-color: #000;
 	color:white;
 }
 
 .dark .searchbar button {
-	background-color: #000000;
+	background-color: #000;
 }
 
 .dark header {
@@ -99,7 +99,8 @@ nav .icon-fix2 {
 
 /*navbar end*/header {
 	display: grid;
-	grid-template-columns: 3fr 7fr 3fr;}
+	grid-template-columns: 3fr 7fr 3fr;
+}
 
 
 .logo {
@@ -133,35 +134,34 @@ header .icon-fix2 {
 }
 
 .maindiv {
-	display:grid;
-	grid-template-columns:2fr 1fr;
-	height:400px;
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+	height: 400px;
 }
 
 .videoinfo {
-	display:grid;
-	grid-template-columns:1fr 1fr;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
 	margin-top: -20px;
 }
 
 .videoplay {
-	height:400px;
+	height: 400px;
 }
 
 .videoinfo h5 {
-	font-size:15px;
-	margin-top:15px;
+	font-size: 15px;
+	margin-top: 15px;
 }
 
 .upload-info {
-	display:grid;
-	grid-template-columns:1fr 10fr;
+	display: grid;
+	grid-template-columns: 1fr 10fr;
 	padding-right: 20px;
-
 }
 
 .topline {
-	border-top:1px solid #cfcdcd;
+	border-top: 1px solid #cfcdcd;
 }
 
 .channel-info {
@@ -197,27 +197,27 @@ main {
 }
 
 .videodesc {
-	text-align:justify;
+	text-align: justify;
 }
 
 .autoplay {
-	display:grid;
-	grid-template-columns:1fr 1fr;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
 }
 
 .autoplayenabled {
-	color:gray;
-	text-align:right;
+	color: gray;
+	text-align: right;
 }
 
 .autoplay h4 {
-	font-size:15px;
+	font-size: 15px;
 	font-weight: 100;
-	font-family:"Lato";
+	font-family: "Lato";
 }
 
 .autoplay h3 {
-	font-size:20px;
+	font-size: 20px;
 	font-weight: 100;
 }
 
@@ -227,7 +227,7 @@ main {
 }
 
 .relvideodiv {
-	height:40%;
+	height: 40%;
 }
 
 .relsection {
@@ -246,22 +246,22 @@ main {
 .searchbar {
 	display: grid;
 	grid-template-columns: 50fr 3fr;
-	width:550px;
+	width: 550px;
 	margin-left: auto;
 	margin-right:auto;
 	margin-top: auto;
-	margin-bottom:auto;
+	margin-bottom: auto;
 }
 
 .searchbar input {
 	width: 100%;
-	font-size:16px;
+	font-size: 16px;
 	height: 100%;
 }
 
 .searchbar button {
 	background-color: #f9f9f9;
-	vertical-align:center;
+	vertical-align: center;
 	height: 100%;
 	width: 80px;
 }
@@ -274,7 +274,7 @@ main {
 	color: gray;                
 	font-size: 17px;
 	font-weight: 300;
-	height:4rem;
+	height: 4rem;
 }
 
 .channel-info span {
@@ -285,11 +285,12 @@ main {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
 	padding-top: 10px;
-	color:gray;
+	color: gray;
 }
 
 .pt3 {
-	padding-top: 3px;}
+	padding-top: 3px;
+}
 
 .pt5 {
 	padding-top: 5px;
@@ -320,41 +321,42 @@ main {
 }
 
 article div div img {
-	margin-top:-5px; padding-left:42px;
+	margin-top: -5px; 
+	padding-left: 42px;
 }
 
 .mar25 {
-margin-top:25px;
+margin-top: 25px;
 }
 
 .marl4 {
-	margin-left:4px;
+	margin-left: 4px;
 }
 
 .marl2 {
-	margin-left:2px;
+	margin-left: 2px;
 }
 
 .commentbuttons .pt10 a {
-	color:gray;
+	color: gray;
 }
 
 .he25 {
-	height:25px;
+	height: 25px;
 }
 
 .usercomm2 {
-	margin-top:-5px; 
-	padding-left:61px;
+	margin-top: -5px; 
+	padding-left: 61px;
 }
 
 .userimage {
-	height:25px;
+	height: 25px;
 }
 
 .upload-info div img {
-	margin-top:-5px; 
-	padding-left:61px;
+	margin-top: -5px; 
+	padding-left: 61px;
 }
 
 .col-1-10 {
@@ -368,31 +370,31 @@ margin-top:25px;
 }
 
 .commentbuttons {
-	display:grid;
-	font-family:"Lato";
+	display: grid;
+	font-family: "Lato";
 	grid-template-columns: 1fr 1fr 1fr 15fr;
 }
 
 .section {
-	display:inline-block;
+	display: inline-block;
 	grid-area: section;
-	margin-left:55px;
-	width:58%;
+	margin-left: 55px;
+	width: 58%;
 }
 
 .aside {
-	float:right;
+	float: right;
 	grid-area: aside;
-	width:33%;
+	width: 33%;
 }
 
 .article {
 	grid-area: article;
-	margin-left:55px;
+	margin-left: 55px;
 }
 
 .main-cont {
-	border:20px yellow solid;
+	border: 20px yellow solid;
 	display: grid; 
 	grid-area: "section aside"
 			   "article aside";
@@ -400,7 +402,7 @@ margin-top:25px;
 }
 
 iframe {
-	border:0;
+	border: 0;
 	width: 100%;
 }
 
@@ -419,7 +421,7 @@ aside {
 }
 
 .upload-info .pl20 img {
-	height:50px;
+	height: 50px;
 }
 
 .upload-info div img {
@@ -435,7 +437,7 @@ article .pt7 img {
 }
 
 .menuicon2 {
-	padding-top:10px;
+	padding-top: 10px;
 	width: 35px;
 }
 
