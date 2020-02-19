@@ -3,7 +3,7 @@ html {
 	font-family:"Lato";
 }
 
-/*dark mode*/
+/* dark mode */
 body .dark {
 	background-color: #000;
 	color:white;
@@ -57,7 +57,7 @@ body .dark {
 	margin-top: -5px;
 }
 
-/*dark mode*/
+/* dark mode */
 nav {
 	display: grid;
 	grid-template-columns: 3fr 7fr 3fr;
@@ -97,7 +97,8 @@ nav .icon-fix2 {
 	margin-top: 4px;
 }
 
-/*navbar end*/header {
+/* navbar end */
+header {
 	display: grid;
 	grid-template-columns: 3fr 7fr 3fr;
 }
@@ -214,6 +215,7 @@ main {
 	font-size: 15px;
 	font-weight: 100;
 	font-family: "Lato";
+	margin-top: 10px;
 }
 
 .autoplay h3 {
@@ -442,10 +444,6 @@ article .pt7 img {
 }
 
 .autoplay h3 {
-	margin-top: 10px;
-}
-
-.autoplay h4 {
 	margin-top: 10px;
 }
 
