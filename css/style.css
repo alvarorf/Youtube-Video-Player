@@ -18,8 +18,8 @@ body .dark {
 	background-color: #000000;
 }
 .dark header {
-	padding-bottom: 20px;
-	padding-top: 10px;
+	
+	padding-top: 13px;
 }
 .dark-logo img {
 	height: 110%;
@@ -40,7 +40,15 @@ body .dark {
 
 }
 .dark section {
-	padding-top: 65px;
+	padding-top: 15px;
+}
+.dark .menuicon2 {
+	height:80%;
+	width: 45px ;
+	padding-top: 5px;
+}
+.dark .user_control {
+	padding-top: 0px;
 }
 
 
@@ -67,6 +75,13 @@ nav input {
 nav .logo img {
 	width: 100px;
 	padding-left: 15%;
+}
+nav .menuicon {
+	height: 80%;
+	width: 45px!important;
+	width: 35px; 
+	padding-top: 5px;
+	
 }
 nav .user_control {
 	display: grid;
@@ -229,12 +244,12 @@ main {
 .searchbar input {
 	width: 100%;
 	font-size:16px;
-	height: 50%;
+	height: 70%;
 }
 .searchbar button {
 	background-color: #f9f9f9;
 	vertical-align:center;
-	height: 80%;
+	height: 70%;
 	
 	width: 80px;
 
@@ -370,7 +385,7 @@ iframe{
 }
 section {
 	width: 93%;
-	padding-top: 65px;
+	padding-top: 15px;
 	padding-left: 35px;
 }
 article {
@@ -390,13 +405,20 @@ article .pt7 img {
     height: 40px;
 }
 section iframe {
-	padding-top: 50px;
+	/*padding-top: 50px;*/
 }
-.menuicon{
-	width: 35px; 
-	padding-top:15px;
+.comment_action {
+	padding-left: 0px!important;
+}
+
 }
 .menuicon2{
 	width: 35px;
 	padding-top:10px;
+}
+.autoplay h3 {
+	margin-top: 10px;
+}
+.autoplay h4 {
+	margin-top: 10px;
 }
