@@ -28,245 +28,245 @@ body .dark {
 }
 
 .dark header .icon-fix2 {
-	margin-top: 7px;
+  margin-top: 7px;
 }
 
 .dark .upload-info div img {
-	height: 47px;
+  height: 47px;
 }
 
 .dark .upload-info .pt7 {
-	padding-top: 0;
+  padding-top: 0;
 }
 
 .dark section {
-	padding-top: 15px;
+  padding-top: 15px;
 }
 
 .dark .menuicon2 {
-	height: 82%;
-	margin-top: auto;
-	width: 45px;
+  height: 82%;
+  margin-top: auto;
+  width: 45px;
 }
 
 .dark .user_control {
-	padding-top: 5px;
+  padding-top: 5px;
 }
 
 .dark header .logo img {
-	margin-top: -5px;
+  margin-top: -5px;
 }
 
 /* dark mode */
 nav {
-	display: grid;
-	grid-template-columns: 3fr 7fr 3fr;
+  display: grid;
+  grid-template-columns: 3fr 7fr 3fr;
 }
 
 .logo {
-	color: white;
+  color: white;
 }
 
 nav input {
-	width: 80%;
-	padding-left: 3%;
-	padding-top: 0px;
-	height: 20px;
+  width: 80%;
+  padding-left: 3%;
+  padding-top: 0px;
+  height: 20px;
 }
 
 nav .logo img {
-	width: 100px;
+  width: 100px;
 }
 
 nav .menuicon {
-	height: 25px;
-	padding-top: 7px;
+  height: 25px;
+  padding-top: 7px;
 }
 
 nav .user_control {
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr 1fr;
-	padding-top: 5%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding-top: 5%;
 }
 
 nav .icon-fix {
-	margin-top: 8px;
+  margin-top: 8px;
 }
 
 nav .icon-fix2 {
-	margin-top: 4px;
+  margin-top: 4px;
 }
 
 /* navbar end */
 header {
-	display: grid;
-	grid-template-columns: 3fr 7fr 3fr;
+  display: grid;
+  grid-template-columns: 3fr 7fr 3fr;
 }
 
 
 .logo {
-	color: white;
+  color: white;
 }
 
 header input {
-	height: 20px;
-	padding-left: 3%;
-	padding-top: 0;
-	width: 80%;
+  height: 20px;
+  padding-left: 3%;
+  padding-top: 0;
+  width: 80%;
 }
 
 header .logo img {
-	padding-left: 15%;
-	width: 100px;
+  padding-left: 15%;
+  width: 100px;
 }
 
 header .user_control {
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr 1fr;
-	padding-top: 5%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding-top: 5%;
 }
 
 header .icon-fix {
-	margin-top: 8px;
+  margin-top: 8px;
 }
 
 header .icon-fix2 {
-	margin-top: 4px;
+  margin-top: 4px;
 }
 
 .maindiv {
-	display: grid;
-	grid-template-columns: 2fr 1fr;
-	height: 400px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  height: 400px;
 }
 
 .videoinfo {
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-	margin-top: -20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: -20px;
 }
 
 .videoplay {
-	height: 400px;
+  height: 400px;
 }
 
 .videoinfo h5 {
-	font-size: 15px;
-	margin-top: 15px;
+  font-size: 15px;
+  margin-top: 15px;
 }
 
 .upload-info {
-	display: grid;
-	grid-template-columns: 1fr 10fr;
-	padding-right: 20px;
+  display: grid;
+  grid-template-columns: 1fr 10fr;
+  padding-right: 20px;
 }
 
 .topline {
-	border-top: 1px solid #cfcdcd;
+  border-top: 1px solid #cfcdcd;
 }
 
 .channel-info {
-	display: grid;
-	grid-template-columns: 1fr 1fr;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 .submit-btn {
-	text-align: right;
+  text-align: right;
 }
 
 .submit-btn button {
-	background-color: red;
-	width: 120px;
-	height: 40px;
-	font-size: 15px;
-	color:white;
-	text-transform: uppercase;
+  background-color: red;
+  width: 120px;
+  height: 40px;
+  font-size: 15px;
+  color:white;
+  text-transform: uppercase;
 }
 
 .upload-info h3 {
-	margin-bottom: 0px;
-	margin-top: 0px;
+  margin-bottom: 0px;
+  margin-top: 0px;
 }
 
 .channel-info {
-	padding-top: 20px;
+  padding-top: 20px;
 }
 
 main {
-	padding-left: 25px;
-	padding-right: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 
 .videodesc {
-	text-align: justify;
+  text-align: justify;
 }
 
 .autoplay {
-	display: grid;
-	grid-template-columns: 1fr 1fr;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 .autoplayenabled {
-	color: gray;
-	text-align: right;
+  color: gray;
+  text-align: right;
 }
 
 .autoplay h4 {
-	font-size: 15px;
-	font-weight: 100;
-	font-family: "Lato";
-	margin-top: 10px;
+  font-size: 15px;
+  font-weight: 100;
+  font-family: "Lato";
+  margin-top: 10px;
 }
 
 .autoplay h3 {
-	font-size: 20px;
-	font-weight: 100;
+  font-size: 20px;
+  font-weight: 100;
 }
 
 .relvideo {
-	display: grid;
-	grid-template-columns: 1fr 1fr;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 .relvideodiv {
-	height: 40%;
+  height: 40%;
 }
 
 .relsection {
-	padding-left: 20px;
+  padding-left: 20px;
 }
 
 .relvideo h5 {
-	margin-top: 3px;
-	margin-bottom: 3px;
+  margin-top: 3px;
+  margin-bottom: 3px;
 }
 
 .title-style {
-	color: gray;
-	font-weight: 100;
+  color: gray;
+  font-weight: 100;
 }
 
 .searchbar {
-	display: grid;
-	grid-template-columns: 50fr 3fr;
-	width: 550px;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: auto;
-	margin-bottom: auto;
+  display: grid;
+  grid-template-columns: 50fr 3fr;
+  width: 550px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .searchbar input {
-	width: 100%;
-	font-size: 16px;
-	height: 100%;
+  width: 100%;
+  font-size: 16px;
+  height: 100%;
 }
 
 .searchbar button {
-	background-color: #f9f9f9;
-	vertical-align: center;
-	height: 100%;
-	width: 80px;
+  background-color: #f9f9f9;
+  vertical-align: center;
+  height: 100%;
+  width: 80px;
 }
 
 .searchbar img {
@@ -281,7 +281,7 @@ main {
 }
 
 .channel-info span {
-  color:gray;
+  color: gray;
 }
 
 .videoshare {
