@@ -55,16 +55,17 @@ header .logo img {
   padding-left: 61px;
   height: 50px;
 }
+
 nav .navmenu img {
   width: 34px;
 }
 
-.upload-info .pl20 img {
-  height: 50px;
-}
-
 article .pt7 img {
   height: 40px;
+}
+
+.upload-info .pl20 img {
+  height: 50px;
 }
 
 .commentbuttons .comment_icons img {
@@ -83,6 +84,8 @@ article .pt7 img {
   display: inline-block;
   grid-area: section;
   margin-left: 55px;
+  padding-left: 35px;
+  padding-top: 15px;
   width: 58%;
 }
 
@@ -425,12 +428,6 @@ main {
 iframe {
   border: 0;
   width: 100%;
-}
-
-section {
-  padding-left: 35px;
-  padding-top: 15px;
-  width: 93%;
 }
 
 article {
