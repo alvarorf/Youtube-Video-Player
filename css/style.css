@@ -237,7 +237,8 @@ main {
 }
 
 .relvideo h5 {
-	margin-top: 3px; margin-bottom: 3px;
+	margin-top: 3px;
+	margin-bottom: 3px;
 }
 
 .title-style {
@@ -273,7 +274,7 @@ main {
 }
 
 .commentage {
-	color: gray;                
+	color: gray;
 	font-size: 17px;
 	font-weight: 300;
 	height: 4rem;
@@ -323,7 +324,7 @@ main {
 }
 
 article div div img {
-	margin-top: -5px; 
+	margin-top: -5px;
 	padding-left: 42px;
 }
 
@@ -348,7 +349,7 @@ margin-top: 25px;
 }
 
 .usercomm2 {
-	margin-top: -5px; 
+	margin-top: -5px;
 	padding-left: 61px;
 }
 
@@ -357,7 +358,7 @@ margin-top: 25px;
 }
 
 .upload-info div img {
-	margin-top: -5px; 
+	margin-top: -5px;
 	padding-left: 61px;
 }
 
@@ -397,11 +398,11 @@ margin-top: 25px;
 
 .main-cont {
 	border: 20px yellow solid;
-	display: grid; 
+	display: grid;
 	grid-area: "section aside"
 			   "article aside";
 	grid-template-columns: 1fr 1fr;
-}
+			}
 
 iframe {
 	border: 0;
