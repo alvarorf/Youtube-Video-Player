@@ -270,136 +270,137 @@ main {
 }
 
 .searchbar img {
-	height : 23px;
+  height: 23px;
 }
 
 .commentage {
-	color: gray;
-	font-size: 17px;
-	font-weight: 300;
-	height: 4rem;
+  color: gray;
+  font-size: 17px;
+  font-weight: 300;
+  height: 4rem;
 }
 
 .channel-info span {
-	color:gray;
+  color:gray;
 }
 
 .videoshare {
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-	padding-top: 10px;
-	color: gray;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  padding-top: 10px;
+  color: gray;
 }
 
 .pt3 {
-	padding-top: 3px;
+  padding-top: 3px;
 }
 
 .pt5 {
-	padding-top: 5px;
+  padding-top: 5px;
 }
 
 .pt7 {
-	padding-top: 7px;
+  padding-top: 7px;
 }
 
 .pt8 {
-	padding-top: 8px;
+  padding-top: 8px;
 }
 
 .pt10 {
-	padding-top: 10px;
+  padding-top: 10px;
 }
 
 .pt15 {
-	padding-top: 15px;
+  padding-top: 15px;
 }
 
 .pl20 {
-	padding-left: 20px;
+  padding-left: 20px;
 }
 
 .pl30 {
-	padding-left: 30px;
+  padding-left: 30px;
 }
 
 article div div img {
-	margin-top: -5px;
-	padding-left: 42px;
+  margin-top: -5px;
+  padding-left: 42px;
 }
 
 .mar25 {
-margin-top: 25px;
+  margin-top: 25px;
 }
 
 .marl4 {
-	margin-left: 4px;
+  margin-left: 4px;
 }
 
 .marl2 {
-	margin-left: 2px;
+  margin-left: 2px;
 }
 
 .commentbuttons .pt10 a {
-	color: gray;
+  color: gray;
 }
 
 .he25 {
-	height: 25px;
+  height: 25px;
 }
 
 .usercomm2 {
-	margin-top: -5px;
-	padding-left: 61px;
+  margin-top: -5px;
+  padding-left: 61px;
 }
 
 .userimage {
-	height: 25px;
+  height: 25px;
 }
 
 .upload-info div img {
-	margin-top: -5px;
-	padding-left: 61px;
+  margin-top: -5px;
+  padding-left: 61px;
 }
 
 .col-1-10 {
-	display: grid;
-	grid-template-columns: 1fr 10fr;
+  display: grid;
+  grid-template-columns: 1fr 10fr;
 }
 
 .col-8-4 {
-	display: grid;
-	grid-template-columns: 8fr 4fr;
+  display: grid;
+  grid-template-columns: 8fr 4fr;
 }
 
 .commentbuttons {
-	display: grid;
-	font-family: "Lato";
-	grid-template-columns: 1fr 1fr 1fr 15fr;
+  display: grid;
+  font-family: "Lato";
+  grid-template-columns: 1fr 1fr 1fr 15fr;
 }
 
 .section {
-	display: inline-block;
-	grid-area: section;
-	margin-left: 55px;
-	width: 58%;
+  display: inline-block;
+  grid-area: section;
+  margin-left: 55px;
+  width: 58%;
 }
 
 .aside {
-	float: right;
-	grid-area: aside;
-	width: 33%;
+  float: right;
+  grid-area: aside;
+  width: 33%;
 }
 
 .article {
-	grid-area: article;
-	margin-left: 55px;
+  grid-area: article;
+  margin-left: 55px;
 }
 
 .main-cont {
   border: 20px yellow solid;
   display: grid;
-  grid-area: "section aside"
+  grid-area:
+  "section aside"
   "article aside";
   grid-template-columns: 1fr 1fr;
 			}
@@ -420,38 +421,38 @@ article {
 }
 
 aside {
-	padding-right: 35px;
+  padding-right: 35px;
 }
 
 .upload-info .pl20 img {
-	height: 50px;
+  height: 50px;
 }
 
 .upload-info div img {
-	height: 50px;
+  height: 50px;
 }
 
 article .pt7 img {
-    height: 40px;
+  height: 40px;
 }
 
 .commentbuttons .comment_icons img {
-	padding-left: 0px;
+  padding-left: 0px;
 }
 
 .menuicon2 {
-	padding-top: 10px;
-	width: 35px;
+  padding-top: 10px;
+  width: 35px;
 }
 
 .autoplay h3 {
-	margin-top: 10px;
+  margin-top: 10px;
 }
 
 nav .navmenu img {
-	width: 34px;
+  width: 34px;
 }
 
 .likebtn {
-	background: url('img/like.png');
+  background: url('img/like.png');
 }
