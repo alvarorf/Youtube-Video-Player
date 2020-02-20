@@ -93,6 +93,12 @@ article .pt7 img {
   padding-top: 15px;
 }
 
+.menuicon{
+  height: 25px;
+  width: 35px;
+  padding-top: 7px;
+}
+
 .menuicon2 {
   padding-top: 10px;
   width: 35px;
@@ -126,6 +132,11 @@ nav {
 
 .logo {
   color: white;
+  height: 40px;
+  width: 80px;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding-left: 20px;
 }
 
 nav input {
@@ -133,15 +144,6 @@ nav input {
   padding-left: 3%;
   padding-top: 0;
   height: 20px;
-}
-
-nav .logo img {
-  width: 100px;
-}
-
-nav .menuicon {
-  height: 25px;
-  padding-top: 7px;
 }
 
 nav .user_control {
