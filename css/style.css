@@ -1,13 +1,13 @@
 html {
   background-color: #f9f9f9;
-  font-family: "Lato", Arial;
+  font-family: "Lato", sans-serif;
 }
 
 /* dark mode */
 .dark {
   background-color: #000;
   color: white;
-  }
+}
 
 body .dark {
   background-color: #000;
@@ -20,20 +20,54 @@ body .dark {
 }
 
 header {
-	display: grid;
-	grid-template-columns: 3fr 7fr 3fr;
-  }
-  
+  display: grid;
+  grid-template-columns: 3fr 7fr 3fr;
+}
+
 .dark header {
   padding-top: 13px;
+}
+
+article div div img {
+  margin-top: -5px;
+  padding-left: 42px;
 }
 
 .dark-logo img {
   height: 110%;
 }
 
+header .icon-fix2 {
+  margin-top: 4px;
+}
+
 .dark header .icon-fix2 {
   margin-top: 7px;
+}
+
+header .logo img {
+  padding-left: 15%;
+  width: 100px;
+}
+
+.upload-info div img {
+  margin-top: -5px;
+  padding-left: 61px;
+  height: 50px;
+}
+.upload-info .pl20 img {
+  height: 50px;
+}
+article .pt7 img {
+  height: 40px;
+}
+
+.commentbuttons .comment_icons img {
+  padding-left: 0;
+}
+
+nav .navmenu img {
+  width: 34px;
 }
 
 .dark .upload-info div img {
@@ -44,8 +78,21 @@ header {
   padding-top: 0;
 }
 
+.section {
+  display: inline-block;
+  grid-area: section;
+  margin-left: 55px;
+  width: 58%;
+  }
+
 .dark section {
   padding-top: 15px;
+}
+
+
+.menuicon2 {
+  padding-top: 10px;
+  width: 35px;
 }
 
 .dark .menuicon2 {
@@ -53,6 +100,11 @@ header {
   margin-top: auto;
   width: 45px;
 }
+header .user_control {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding-top: 5%;
+  }
 
 .dark .user_control {
   padding-top: 5px;
@@ -110,23 +162,8 @@ header input {
   width: 80%;
 }
 
-header .logo img {
-  padding-left: 15%;
-  width: 100px;
-}
-
-header .user_control {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  padding-top: 5%;
-}
-
 header .icon-fix {
   margin-top: 8px;
-}
-
-header .icon-fix2 {
-  margin-top: 4px;
 }
 
 .maindiv {
@@ -319,11 +356,6 @@ main {
   padding-left: 30px;
 }
 
-article div div img {
-  margin-top: -5px;
-  padding-left: 42px;
-}
-
 .mar25 {
   margin-top: 25px;
 }
@@ -353,11 +385,6 @@ article div div img {
   height: 25px;
 }
 
-.upload-info div img {
-  margin-top: -5px;
-  padding-left: 61px;
-}
-
 .col-1-10 {
   display: grid;
   grid-template-columns: 1fr 10fr;
@@ -372,13 +399,6 @@ article div div img {
   display: grid;
   font-family: "Lato";
   grid-template-columns: 1fr 1fr 1fr 15fr;
-}
-
-.section {
-  display: inline-block;
-  grid-area: section;
-  margin-left: 55px;
-  width: 58%;
 }
 
 .aside {
@@ -418,31 +438,6 @@ article {
 
 aside {
   padding-right: 35px;
-}
-
-.upload-info .pl20 img {
-  height: 50px;
-}
-
-.upload-info div img {
-  height: 50px;
-}
-
-article .pt7 img {
-  height: 40px;
-}
-
-.commentbuttons .comment_icons img {
-  padding-left: 0;
-}
-
-.menuicon2 {
-  padding-top: 10px;
-  width: 35px;
-}
-
-nav .navmenu img {
-  width: 34px;
 }
 
 .likebtn {
