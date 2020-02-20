@@ -1,24 +1,29 @@
 html {
   background-color: #f9f9f9;
-  font-family: "Lato";
+  font-family: "Lato", Arial;
 }
 
 /* dark mode */
+.dark {
+  background-color: #000;
+  color: white;
+  }
+
 body .dark {
   background-color: #000;
   color: white;
   font-family: "Lato";
 }
 
-.dark {
-  background-color: #000;
-  color: white;
-}
-
 .dark .searchbar button {
   background-color: #000;
 }
 
+header {
+	display: grid;
+	grid-template-columns: 3fr 7fr 3fr;
+  }
+  
 .dark header {
   padding-top: 13px;
 }
@@ -70,7 +75,7 @@ nav {
 nav input {
   width: 80%;
   padding-left: 3%;
-  padding-top: 0px;
+  padding-top: 0;
   height: 20px;
 }
 
@@ -98,16 +103,6 @@ nav .icon-fix2 {
 }
 
 /* navbar end */
-header {
-  display: grid;
-  grid-template-columns: 3fr 7fr 3fr;
-}
-
-
-.logo {
-  color: white;
-}
-
 header input {
   height: 20px;
   padding-left: 3%;
@@ -179,13 +174,13 @@ header .icon-fix2 {
   width: 120px;
   height: 40px;
   font-size: 15px;
-  color:white;
+  color: white;
   text-transform: uppercase;
 }
 
 .upload-info h3 {
-  margin-bottom: 0px;
-  margin-top: 0px;
+  margin-bottom: 0;
+  margin-top: 0;
 }
 
 .channel-info {
@@ -221,6 +216,7 @@ main {
 .autoplay h3 {
   font-size: 20px;
   font-weight: 100;
+  margin-top: 10px;
 }
 
 .relvideo {
@@ -400,10 +396,10 @@ article div div img {
   border: 20px yellow solid;
   display: grid;
   grid-area:
-  "section aside"
-  "article aside";
+	"section aside"
+	"article aside";
   grid-template-columns: 1fr 1fr;
-			}
+}
 
 iframe {
   border: 0;
@@ -437,16 +433,12 @@ article .pt7 img {
 }
 
 .commentbuttons .comment_icons img {
-  padding-left: 0px;
+  padding-left: 0;
 }
 
 .menuicon2 {
   padding-top: 10px;
   width: 35px;
-}
-
-.autoplay h3 {
-  margin-top: 10px;
 }
 
 nav .navmenu img {
