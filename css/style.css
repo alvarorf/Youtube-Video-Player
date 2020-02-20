@@ -12,7 +12,7 @@ html {
 body .dark {
   background-color: #000;
   color: white;
-  font-family: "Lato";
+  font-family: "Lato", sans-serif;
 }
 
 .dark .searchbar button {
@@ -55,19 +55,20 @@ header .logo img {
   padding-left: 61px;
   height: 50px;
 }
+nav .navmenu img {
+  width: 34px;
+}
+
 .upload-info .pl20 img {
   height: 50px;
 }
+
 article .pt7 img {
   height: 40px;
 }
 
 .commentbuttons .comment_icons img {
   padding-left: 0;
-}
-
-nav .navmenu img {
-  width: 34px;
 }
 
 .dark .upload-info div img {
@@ -83,12 +84,11 @@ nav .navmenu img {
   grid-area: section;
   margin-left: 55px;
   width: 58%;
-  }
+}
 
 .dark section {
   padding-top: 15px;
 }
-
 
 .menuicon2 {
   padding-top: 10px;
@@ -100,11 +100,12 @@ nav .navmenu img {
   margin-top: auto;
   width: 45px;
 }
+
 header .user_control {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   padding-top: 5%;
-  }
+}
 
 .dark .user_control {
   padding-top: 5px;
@@ -246,7 +247,7 @@ main {
 .autoplay h4 {
   font-size: 15px;
   font-weight: 100;
-  font-family: "Lato";
+  font-family: "Lato", sans-serif;
   margin-top: 10px;
 }
 
@@ -397,7 +398,7 @@ main {
 
 .commentbuttons {
   display: grid;
-  font-family: "Lato";
+  font-family: "Lato", sans-serif;
   grid-template-columns: 1fr 1fr 1fr 15fr;
 }
 
@@ -416,8 +417,8 @@ main {
   border: 20px yellow solid;
   display: grid;
   grid-area:
-	"section aside"
-	"article aside";
+    "section aside"
+    "article aside";
   grid-template-columns: 1fr 1fr;
 }
 
