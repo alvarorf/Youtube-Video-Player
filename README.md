@@ -1,4 +1,4 @@
-﻿# Project Name
+﻿# Youtube player clone
 
 > Welcome to our first html and css project. Developed by Alvaro Ruiz (@alvarorf) and Miguel Enciso (@rootDEV2990). Please enjoy and leave us a comment. 
 
